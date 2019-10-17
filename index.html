@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>H+U Kft.</title>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./src/hes-gallery.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c989deebba.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container--center">
+            <div class="header_logoline">
+                <img class="header_logoline__logo" src="img/logo.svg" alt="logo">
+            </div>
+            <a href="javascript:void(0);" class="burger_icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <nav class="navbar__nav hidden-s">
+                <p class="navbar__nav__link" onclick="scrollHome()">Home</p>
+                <p class="navbar__nav__link" onclick="scrollAbout()">Rólunk</p>
+                <p class="navbar__nav__link" onclick="scrollServices()">Szolgáltatásaink</p>
+                <p class="navbar__nav__link" onclick="scrollGallery()">Galéria</p>
+                <p class="navbar__nav__link" onclick="scrollReferences()">Referenciák</p>
+                <p class="navbar__nav__link" onclick="scrollContact()">Kapcsolat</p>
+
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="hero" id="home">
+
+            <div class="hero_image">
+                <h2>H + U</h2>
+                <p>teljeskörű megoldások</p>
+            </div>
+        </div>
+
+        <article class="pad-bottom">
+            <div class="title" id="about">
+                <h1>
+                    Rólunk
+                </h1>
+            </div>
+            <div class="container">
+                <div class="col col--fix hidden-s">
+                    <p>
+                        <img src="img/about/about01.jpg" alt="">
+                    </p>
+                    <p>
+                        <img src="img/about/about02.jpg" alt="">
+                    </p>
+                    <p>
+                        <img src="img/about/about03.jpg" alt="">
+                    </p>
+                </div>
+                <div class="col pad-h justify">
+
+                    <p>
+                        Vállakozásunk 1992-ben alakult, faipari tömegcikk, és csomagoló eszközök gyártására. Később a
+                        szolgáltatásaink bővültek nyílászárók,
+                        és egyedi bútorok készítésével.
+                    </p>
+                    <p>
+                        2003 óta fotorealisztikus 3d tervezéssel, és teljes belsőépítészeti kivitelezéssel is állunk
+                        vevőink rendelkezésére.
+                    </p>
+                    <p>
+                        2005-ben egy új anyagra leltünk: a BAMBUSZ-ra. Ettől kezdve a BAMBUSZ, cégünk arculatának
+                        meghatározó elemévé vált, mint
+                        egyedi "design" bútorok készítője, és egyedi bambusz "enteriőr" kivitelezője.
+                    </p>
+                    <p>
+                        2006-tól komplett terveket készítünk megrendelőink épülő házainak élettér kialakítására, melyet
+                        online módon is elérhetővé
+                        teszünk számukra. így azóta komplett külső-belső tervezéssel, és kivitelezéssel állunk
+                        ügyfeleink
+                        rendelkezésére.
+                    </p>
+
+                </div>
+
+                <div class="col col--fix hidden-s">
+                    <p>
+                        <img src="img/about/about04.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="img/about/about05.jpg" alt="">
+                    </p>
+
+                    <p>
+                        <img src="img/about/about06.jpg" alt="">
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article class="pad-bottom darker">
+            <div class="title" id="services">
+                <h1>
+                    Szolgáltatásaink
+                </h1>
+            </div>
+            <div class="container">
+                <div class="card col--fix  pad-h text-center col-xs-fluid pad-bottom">
+                    <i class="material-icons card__icon">3d_rotation</i>
+                    <h3>3D tervezés</h3>
+                    <!--
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue,
+                        viverra sit amet ultricies</p>
+						-->
+                </div>
+                <div class="card col--fix pad-h text-center col-xs-fluid pad-bottom">
+                    <i class="fas fa-drafting-compass card__icon "></i>
+                    <h3>Külső És Belső Tervezés</h3>
+                    <!--
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue,
+                        viverra sit amet ultricies</p>
+						-->
+                </div>
+                <div class="card col--fix pad-h text-center col-xs-fluid pad-bottom">
+                    <i class="fas fa-hammer card__icon"></i>
+                    <h3>Komplett Kivitelezés</h3>
+                    <!--
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue,
+                        viverra sit amet ultricies</p>
+						-->
+                </div>
+                <div class="card col--fix pad-h text-center col-xs-fluid pad-bottom">
+                    <i class="fas fa-chair card__icon"></i>
+                    <h3>Egyedi Bútorok Gyártása</h3>
+                    <!--
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue,
+                        viverra sit amet ultricies</p>
+						-->
+                </div>
+            </div>
+        </article>
+
+        <article class="pad-bottom">
+            <div class="title" id="gallery">
+                <h1>
+                    Galéria
+                </h1>
+            </div>
+            <div class="container--gallery">
+                <div class="hes-gallery" data-wrap="false" data-img-count="true">
+                    <div class="hes-gallery__column">
+                        <img src="img/gallery/01.jpg" alt="image1" data-subtext="" data-alt="co jeest">
+                        <img src="img/gallery/02.jpg" alt="image2" data-subtext="">
+                        <img src="img/gallery/03.jpg" alt="image3" data-subtext="">
+                    </div>
+
+                    <div class="hes-gallery__column">
+                        <img src="img/gallery/16.jpg" alt="image4" data-subtext="" data-alt="co jeest">
+                        <img src="img/gallery/05.jpg" alt="image5" data-subtext="">
+                        <img src="img/gallery/10.jpg" alt="image6" data-subtext="">
+                    </div>
+
+
+                    <div class="hes-gallery__column">
+                        <img src="img/gallery/10.jpg" alt="image4" data-subtext="" data-alt="co jeest">
+                        <img src="img/gallery/12.jpg" alt="image6" data-subtext="">
+                        <img src="img/gallery/13.jpg" alt="image4" data-subtext="" data-alt="co jeest">
+                        <img src="img/gallery/14.bmp" alt="image5" data-subtext="">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="pad-bottom darker">
+            <div class="title" id="references">
+                <h1>
+                    Referenciáink
+                </h1>
+            </div>
+            <div class="container darker">
+                <div class="col col--fix pad-h col-xs-fluid">
+                    <ul>
+                        <li>/hamarosan/</li>
+                    </ul>
+                </div>
+
+            </div>
+        </article>
+
+        <article class="pad-bottom">
+            <div class="title col-xs-fluid" id="contact">
+                <h1>
+                    Kapcsolat
+                </h1>
+            </div>
+            <div class="container">
+                <div class=" col--fix pad-h col-xs-fluid">
+                    <p>
+                        <strong>H+U Kft. </strong>
+                        <br> 6800. Hmvhely, Árok utca 7.
+                    </p>
+                    <p>
+                        <b>E-mail:</b> hubt1@t-online.hu
+                    </p>
+                    <p>
+                        <b>Tel: </b>+36 62 244 458; 
+                    </p>
+
+                    <p>
+                        <strong>Horváth Zoltán</strong>
+                        <br> ügyvezető, cégtulajdonos
+                        <br>+36 30 963 7510
+                    </p>
+
+
+                </div>
+
+
+                <div class="col--fix pad-h col-xs-fluid">
+                    <iframe class="map" style="border: 1px solid rgb(219, 214, 214)"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1156.4708751923183!2d20.30290939004003!3d46.4176444092171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47446f85314d7419%3A0xfcab864649d13d0c!2zSMOzZG1lesWRdsOhc8OhcmhlbHksIMOBcm9rIHUuIDcsIDY4MDA!5e0!3m2!1sen!2shu!4v1562924066670!5m2!1sen!2shu"
+                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>H+U Kft. 2019</p>
+
+    </footer>
+
+    <script src="./src/hes-gallery.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        HesGallery.setOptions({
+            disableScrolling: false,
+            hostedStyles: false,
+            animations: true,
+
+            showImageCount: true,
+            wrapAround: true
+        });
+    </script>
+</body>
+
+
+
+</html>
