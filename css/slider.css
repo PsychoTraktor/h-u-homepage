@@ -1,0 +1,108 @@
+/* [SLIDER] */
+#slider,  #slider .slide{
+    width: 600px;
+   
+  }
+  #slider {
+    padding-top:100px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 1.2em;
+    background:none;
+  }
+  #slider .slider__container {
+    position: relative;
+    width: 9000px; /* Assign an insanely large width */
+    top: 0;
+    right: 0;
+    animation: slide-animation 16s infinite;
+  }
+  #slider .slide {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 20px;
+  }
+  
+  /* [ANIMATION] */
+  @keyframes slide-animation {
+  
+
+      0% {
+          opacity:0;
+          right: 0;
+      }
+      5% {
+          opacity: 1;
+          right: 0;
+      }
+      20% {
+          opacity: 1;
+          right: 0;
+      }
+      24.999% {
+          opacity: 0;
+          right: 0;
+      }
+      25% {
+          opacity: 0;
+          right: 100%;
+      }
+      35% {
+        opacity: 1;
+        right: 100%;
+      }
+
+      45%{
+        opacity: 1;
+        right: 100%;
+      }
+      49.999% {
+          opacity: 0;
+          right: 100%;
+      }
+
+      50% {
+          opacity: 0;
+          right: 200%;
+      }
+
+      55% {
+          opacity: 1;
+          right: 200%;
+      }
+
+      70% {
+          opacity: 1;
+          right: 200%;
+      }
+
+      74.999% {
+          opacity: 0;
+          right :200%;
+      }
+
+      75%{
+          opacity: 0;
+          right: 300%
+      }
+
+      80% {
+          opacity: 1;
+          right:300%;
+      }
+
+      95% {
+          opacity: 1;
+          right:300%;
+      }
+
+      99.99% {
+          opacity: 0;
+          right: 300%;
+      }
+}
+
+
+   
+  
